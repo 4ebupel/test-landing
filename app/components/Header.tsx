@@ -1,6 +1,4 @@
-import styles from '@/app/components/Header/header.module.css';
 import Image from 'next/image'
-import headerImg from '../../public/AtronHeader.png';
 
 export default function Header () {
     return (
