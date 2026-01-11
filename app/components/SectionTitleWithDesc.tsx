@@ -4,7 +4,7 @@ import { motion } from 'motion/react';
 
 export default function SectionTitleWithDesc() {
   return (
-    <motion.div
+    <motion.section
       className='flex items-center w-full'
       initial={{ transform: 'translate(0, 100%)' }}
       whileInView={{ transform: 'translate(0, 0)' }}
@@ -26,6 +26,6 @@ export default function SectionTitleWithDesc() {
           effizientesten und umweltfreundlichsten Lösungen.
         </p>
       </div>
-    </motion.div>
+    </motion.section>
   )
 }
