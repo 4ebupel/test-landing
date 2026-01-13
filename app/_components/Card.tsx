@@ -100,7 +100,7 @@ export default function Card({ type, link = true, onClick, ...props }: Props) {
               )}
             </p>
             <h3 className='font-bold text-2xl text-white w-full text-left' >
-              {renderSwitch(type)}
+              {/* {renderSwitch(type)} */}
             </h3>
           </div>
         </motion.div>
